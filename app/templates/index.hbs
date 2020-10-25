@@ -1,0 +1,10 @@
+<Jumbo>
+    <h1>Welcome to my Personal Page !!</h1>
+    <p>You can find almost anything about me on this website. My final year project, education to name a few....  </p>
+
+    <div class="portfolio-items-wrapper">
+        {{#each @model as |item|}}
+        <li><Image @item = {{item}}/></li>
+        {{/each}}
+    </div>
+</Jumbo>

@@ -1,0 +1,11 @@
+<LeafletMap @lat={{@lat}} @lng={{@lng}} @zoom={{@zoom}} as |layers|>
+
+    <layers.tile @url={{this.map}} />
+
+  <layers.marker @location= as |marker|>
+    <marker.popup>
+      <h3></h3>
+    </marker.popup>
+  </layers.marker>
+
+</LeafletMap>

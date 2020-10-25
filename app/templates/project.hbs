@@ -1,0 +1,50 @@
+<Jumbo>
+    <div class="title">
+        <h2>Fake News Detection with Machine Learning</h2>
+    </div>
+
+    <h3>Motivation</h3>
+    <p>Social media for news consumption is a double-edged sword. On the one hand, its low cost, easy access, and rapid dissemination of information lead people to seek out and consume news from social media. On the other hand, it enables the wide spread of "fake news", i.e., low quality news with intentionally false information. The extensive spread of fake news has the potential for extremely negative impacts on individuals and society. Therefore, fake news detection on social media has recently become an emerging research that is attracting tremendous attention. Fake news detection on social media presents unique characteristics and challenges that make existing detection algorithms from traditional news media ineffective or not applicable. First, fake news is intentionally written to mislead readers to believe false information, which makes it difficult and nontrivial to detect based on news content; therefore, we need to include auxiliary information, such as user social engagements on social media, to help make a determination. Second, exploiting this auxiliary information is challenging in and of itself as users' social engagements with fake news produce data that is big, incomplete, unstructured, and noisy. Because the issue of fake news detection on social media is both challenging and relevant, we conducted this survey to further facilitate research on the problem. In this survey, we present a comprehensive review of detecting fake news on social media, including fake news characterizations on psychology and social theories, existing algorithms from a data mining perspective, evaluation metrics and representative datasets. We also discuss related research areas, open problems, and future research directions for fake news detection on social media.
+    </p>
+
+    <h3>Block Diagram</h3>
+    <img src="" alt="">
+
+    <h3>Layout</h3>
+    <ul>
+        <li class="list">Dataset</li>
+        <li class="list">Pre-processing</li>
+        <li class="list">Feature extraction</li>
+        <li class="list">Algorithm Training</li>
+        <li class="list">Validation</li>
+    </ul>
+
+    <h3>Dataset</h3>
+    <p><b>Kaggle</b>, a subsidiary of Google doc, is an online community of data scientists and machine learning practitioners. Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.<br>Hence most of the datasets are collected from Kaggle and then put through for processing.
+    </p>
+
+    <h3>Pre-processing</h3>
+    <p>It involves processing of data for further analysis. This generally includes vector representation of data i.e. Words and sentences. In this process various unnecessary data such as non-character symbols as well as adjectives, pronounce are removed for easy and faster processing.<br>It involves processing through various application plugins as well as library functions. Now the dataset is ready to be evaluated for algorithmic test and data processing.
+    </p>
+
+    <h3>Feature Extraction</h3>
+    <p>Doc2Vec is a model developed in 2014 based on the existing Word2Vec model, which generates vector representations for words .Word2Vec represents documents by combining the vectors of the individual words, but in doing so it loses all word order information. <br>Doc2Vec expands on Word2Vec by adding a ‘document vector’ to the output representation, which contains some information about the document as a whole, and allows the model to learn some information about word order. Preservation of word order information makes Doc2Vec useful for our application, as it aims to detect subtle differences between text documents.</p>
+
+    <h3>Algorithm Training</h3>
+    <p>Here after processing, data is processed for various algorithms namely</p>
+    <ul>
+        <li class="list">Support Vector Machine (SVM)</li>
+        <li class="list">k-Nearest Neighbors (kNN)</li>
+        <li class="list">k-Means Clustering </li>
+        <li class="list">Error Back Propagation Algorithm (EBPA)</li>
+        <li class="list">Decision Tree</li>
+        <li class="list">Random Forest</li>
+        <li class="list">Conjugate Gradient</li>
+    </ul>
+
+    <h3>Validation</h3>
+     <p>For a complete analysis and validation procedure refer the Google Docs link given below or view the pdf. <br>
+        <a href="https://docs.google.com/document/d/1NoInIAat9OpPRPkSR5YUNZf4JpFPzx01-XOmKa0jcv8/edit?usp=sharing">Project Report</a><br>
+        <a href="/assets/Project-Report.pdf">View PDF</a>
+        </p>
+</Jumbo>

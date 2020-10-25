@@ -9,8 +9,10 @@
 
     {{content-for "head"}}
 
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Lobster&display=swap" rel="stylesheet">
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/portfolio.css">
+    
 
     {{content-for "head-footer"}}
   </head>
@@ -19,6 +21,20 @@
 
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/portfolio.js"></script>
+    
+    <script>
+      const portfolioItems = document.querySelectorAll('.item-wrapper');
+  
+      portfolioItems.forEach(element => {
+        element.addEventListener('mouseover', () => {
+          console.log(portfolioItems.childNode[1].classList.add('img-darken'));
+        })
+  
+        element.addEventListener('mouseout', () => {
+          portfolioItems.childNode[1].classList.remove('img-darken');
+        })
+      });
+    </script>
 
     {{content-for "body-footer"}}
   </body>

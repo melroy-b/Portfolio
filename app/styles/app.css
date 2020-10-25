@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.footer, .menu {
+    background-color: black;
+}
+
+.container {
+    max-width: 1024px;
+    min-height: 100vh;
+    padding: 0 10px;
+    background: #f9f9f9;
+    margin: 0 auto;
+}
+
+.list, .content > h1,h3,p{
+    font-family: "Heebo", sans-serif;
+}
+
+
+/*Nav styles*/
+
+.menu h2 {
+    font-family: 'Heebo', sans-serif;    transition: color .2s;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu h2:hover{
+    color: rgb(12, 191, 245);
+    border-bottom: 1px solid rgb(12, 191, 245);
+}
+
+.menu h1 {
+    font-family: 'Lobster', cursive;
+    padding-left: 30px;
+}
+
+.menu a {
+    display: flex;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.details {
+    display: flex;
+    padding-top: 7px;
+    padding-right: 30px;
+}
+
+/*Footer styles*/
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.links {
+    font-family: 'Lobster', cursive;
+    padding: 20px 0 0 150px;
+}
+
+.links a {
+    display: block;
+    line-height: 1.2;
+    text-decoration: none;
+    color: white;
+}
+
+.footer > .address h2 {
+    color: white;
+    font-weight: lighter;
+}
+
+.footer > .address a {
+    text-decoration: none;
+    color: white;
+}
+
+address {
+    font-size: small;
+    font-family: 'Heebo', sans-serif;
+    padding-left: 60px;
+}
+
+address p {
+    line-height: 1.5;
+    color: white;
+}
+
+.footer > .social {
+    font-family: 'Heebo', sans-serif;
+}
+
+.footer > .social h2 {
+    color: white;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: larger;
+}
+
+/*Image & content styles*/
+
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    background-color: white;
+}
+ 
+.background-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0;
+}
+
+.item-wrapper a {
+    text-decoration: none;
+}
+
+.item-wrapper {
+    position: relative;
+}
+
+.item-wrapper .subtitle {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 180px;
+    padding-right: 200px;
+    font-size: x-large;
+    font-family: 'Lobster', cursive;
+    transition: 0.2s;
+    color: transparent;
+}
+
+.item-wrapper:hover .subtitle {
+    color:  rgb(0, 195, 255);
+    font-size: xx-large;
+}
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(20%);
+}
+
+/*Project page styles*/
+.title {
+    text-align: center;
+    font-family: "Heebo", sans-serif;
+}
+.content a {
+    text-decoration: none;
+    color: blue;
+}
+
+/*Education page styles*/
+.leaflet-container {
+    height: 300px;
+}
+
+/*about page styles*/
+.side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text {
+    padding: 50px 30px 0 30px;
+}
+
+.text h2 {
+    font-family: 'Heebo', sans-serif;
+}
+
+.quote {
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+
+.myimage img {
+    max-width: 100%;
+    height: 400px;
+    border-radius: 100%;
+    padding: 40px 0 0 40px;
+}
