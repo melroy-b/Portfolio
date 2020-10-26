@@ -5,7 +5,16 @@ module.exports = function(environment) {
     modulePrefix: 'portfolio',
     environment,
     rootURL: '/',
-    locationType: 'auto',
+    locationType: 'router-scroll',
+    historySupportMiddleware: true,
+    firebase: {
+      apiKey: "AIzaSyAy4r6VOgM2_-aFkp682oSzPbB_1ceR91s",
+      authDomain: "portfolio-f2be9.firebaseapp.com",
+      databaseURL: "https://portfolio-f2be9.firebaseio.com",
+      projectId: "portfolio-f2be9",
+      storageBucket: "portfolio-f2be9.appspot.com",
+      messagingSenderId: "467141287873",
+    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -46,8 +55,5 @@ module.exports = function(environment) {
   if (environment === 'production') {
     // here you can enable a production-specific feature
   }
-
-  ENV.MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoibTNhcnJldDAiLCJhIjoiY2tnMmduZmoyMDBuMDJ3a3ppeHFucHRxeSJ9.P3qzSoNxFyWQSuDtxhWTFA';
-
   return ENV;
 };
