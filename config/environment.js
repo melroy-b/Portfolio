@@ -7,7 +7,7 @@ module.exports = function(environment) {
     rootURL: '/',
     locationType: 'router-scroll',
     historySupportMiddleware: true,
-    firebase: {
+    /*firebase: {
       apiKey: "AIzaSyAy4r6VOgM2_-aFkp682oSzPbB_1ceR91s",
       authDomain: "portfolio-f2be9.firebaseapp.com",
       databaseURL: "https://portfolio-f2be9.firebaseio.com",
@@ -15,6 +15,9 @@ module.exports = function(environment) {
       storageBucket: "portfolio-f2be9.appspot.com",
       messagingSenderId: "467141287873",
     },
+    torii: {
+      sessionServiceName: 'session'
+    },*/
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build

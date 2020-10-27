@@ -1,10 +1,10 @@
-<LeafletMap @lat={{@lat}} @lng={{@lng}} @zoom={{@zoom}} as |layers|>
+<LeafletMap @lat={{lat}} @lng={{lng}} @zoom={{zoom}} as |layers|>
 
-    <layers.tile @url={{this.map}} />
+    <layers.tile @url={{map}} />
 
-  <layers.marker @location= as |marker|>
+  <layers.marker @location={{emberConfLocation}} as |marker|>
     <marker.popup>
-      <h3></h3>
+      <h3>DBHS</h3>
     </marker.popup>
   </layers.marker>
 
