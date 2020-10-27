@@ -7,7 +7,5 @@ export default class MapController extends Controller {
 
   emberConfLocation = [15.4964464, 73.8201439];
 
-  get map() {
-    return 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-    }
+  url = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 }
