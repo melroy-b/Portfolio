@@ -152,8 +152,8 @@ address p {
 }
 
 .img-darken {
-    transition: 1s;
-    filter: brightness(20%);
+    transition: 0.4s;
+    filter: brightness(40%);
 }
 
 /*Project page styles*/
