@@ -22,20 +22,7 @@
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/portfolio.js"></script>
     
-    <script>
-      const portfolioItems = document.querySelectorAll('.item-wrapper');
   
-      portfolioItems.forEach(element => {
-        element.addEventListener('mouseover', () => {
-          console.log(portfolioItems.childNode[1].classList.add('img-darken'));
-        })
-  
-        element.addEventListener('mouseout', () => {
-          portfolioItems.childNode[1].classList.remove('img-darken');
-        })
-      });
-    </script>
-
     {{content-for "body-footer"}}
   </body>
 </html>
