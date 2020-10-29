@@ -10,7 +10,7 @@ export default class ImageWrapperComponent extends Component {
           element.childNodes[1].classList.add('img-darken');
         })
     })
-    
+
     portfolioItems.forEach(element => {
         element.addEventListener('mouseout', () => {
           element.childNodes[1].classList.remove('img-darken');
