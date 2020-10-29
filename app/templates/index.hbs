@@ -3,8 +3,9 @@
     <p>You can find almost anything about me on this website. My final year project, education to name a few....  </p>
 
     <div class="portfolio-items-wrapper">
-        {{#each @model as |item|}}
-        <li><Image @item = {{item}}/></li>
-        {{/each}}
+        <li><Image @route = "project" src = "/assets/images/PROJECT1.png" @subtitle = "Project"/></li>
+        <li><Image @route = "education" src = "/assets/images/EDUCATION1.png" @subtitle = "Education"/></li>
+        <li><Image @route = "about" src = "/assets/images/ABOUT1.png" @subtitle = "About"/></li>
+        <li><Image @route = "contact" src = "/assets/images/CONTACT1.png" @subtitle = "Contact"/></li>
     </div>
 </Jumbo>
