@@ -2,28 +2,28 @@
   "data": [
     {
       "attributes": {
-      "image": "assets/images/PROJECT1.png",
+      "image": "/assets/images/PROJECT1.png",
       "subtitle": "Project",
       "page": "project"
       }
     },
     {
       "attributes": {
-      "image": "assets/images/EDUCATION1.png",
+      "image": "/assets/images/EDUCATION1.png",
       "subtitle": "Education",
       "page": "education"
       }
     },
     {
       "attributes": {
-      "image": "assets/images/ABOUT1.png",
+      "image": "/assets/images/ABOUT1.png",
       "subtitle": "About",
       "page": "about"
       }
     },
     {
       "attributes": {
-      "image": "assets/images/CONTACT1.png",
+      "image": "/assets/images/CONTACT1.png",
       "subtitle": "Contact",
       "page": "contact"
       }
